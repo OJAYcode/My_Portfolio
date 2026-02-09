@@ -12,9 +12,6 @@ export const metadata: Metadata = {
   title: "Oluwole Oluwole — Developer Portfolio",
   description:
     "Professional Web & Mobile App Developer with expertise in React, React Native, TypeScript, and Cybersecurity.",
-  icons: {
-    icon: "/favicon.ico",
-  },
 };
 
 export default function RootLayout({
@@ -24,12 +21,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        />
-      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
